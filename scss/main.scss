@@ -148,7 +148,7 @@ main {
     border: 3px #fff solid;
 
     &:hover {
-      opacity: 0.5;
+      opacity: 0.2;
       border-color: $secondary-color;
       @include easeOut;
     }
@@ -185,6 +185,27 @@ main {
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
   height: 60px;
+}
+
+//Hover over Image
+.textWithBlurredBg {
+  display: inline-block;
+  position: relative;
+}
+
+.textWithBlurredBg :not(img) {
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: $secondary-color;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.textWithBlurredBg:hover :not(img) {
+  opacity: 1;
 }
 
 @import "mobile";

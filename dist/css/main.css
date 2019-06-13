@@ -207,7 +207,7 @@ main {
     width: 100%;
     border: 3px #fff solid; }
     .projects img:hover {
-      opacity: 0.5;
+      opacity: 0.2;
       border-color: #eece1a;
       transition: all 1s ease-out; }
 
@@ -234,6 +234,23 @@ main {
   background: #2b2b2b;
   color: #fff;
   height: 60px; }
+
+.textWithBlurredBg {
+  display: inline-block;
+  position: relative; }
+
+.textWithBlurredBg :not(img) {
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #eece1a;
+  opacity: 0;
+  transition: 0.3s; }
+
+.textWithBlurredBg:hover :not(img) {
+  opacity: 1; }
 
 @media screen and (min-width: 1171px) {
   .projects {
