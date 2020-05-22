@@ -155,10 +155,22 @@ main {
   main#home h1 {
     margin-top: 20vh; }
 
+#about {
+  background: #444;
+  opacity: 0.9; }
+
+#work {
+  background: #444;
+  opacity: 0.9; }
+
+#contact {
+  background: #444;
+  opacity: 0.9; }
+
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bioimage {
     grid-area: bioimage;
@@ -287,7 +299,7 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
