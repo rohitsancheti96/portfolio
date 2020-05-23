@@ -157,7 +157,8 @@ main {
 
 #about {
   background: #444;
-  opacity: 0.9; }
+  opacity: 0.9;
+  margin-top: 60px; }
 
 #work {
   background: #444;
