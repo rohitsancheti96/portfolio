@@ -220,7 +220,7 @@ main {
     width: 100%;
     border: 3px #fff solid; }
     .projects img:hover {
-      opacity: 0.2;
+      opacity: 0;
       border-color: #eece1a;
       transition: all 1s ease-out; }
 
@@ -259,7 +259,7 @@ main {
   width: 100%;
   text-align: center;
   color: #eece1a;
-  opacity: 0;
+  opacity: 1;
   transition: 0.3s; }
 
 .textWithBlurredBg:hover :not(img) {

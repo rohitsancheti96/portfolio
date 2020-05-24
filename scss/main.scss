@@ -172,7 +172,7 @@ main {
     border: 3px #fff solid;
 
     &:hover {
-      opacity: 0.2;
+      opacity: 0;
       border-color: $secondary-color;
       @include easeOut;
     }
@@ -216,7 +216,9 @@ main {
 .textWithBlurredBg {
   display: inline-block;
   position: relative;
+
 }
+
 
 .textWithBlurredBg :not(img) {
   position: absolute;
@@ -225,7 +227,7 @@ main {
   width: 100%;
   text-align: center;
   color: $secondary-color;
-  opacity: 0;
+  opacity: 1;
   transition: 0.3s;
 }
 
