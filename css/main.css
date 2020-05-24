@@ -155,19 +155,6 @@ main {
   main#home h1 {
     margin-top: 20vh; }
 
-#about {
-  background: #444;
-  opacity: 0.9;
-  margin-top: 60px; }
-
-#work {
-  background: #444;
-  opacity: 0.9; }
-
-#contact {
-  background: #444;
-  opacity: 0.9; }
-
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -220,7 +207,7 @@ main {
     width: 100%;
     border: 3px #fff solid; }
     .projects img:hover {
-      opacity: 0;
+      opacity: 0.2;
       border-color: #eece1a;
       transition: all 1s ease-out; }
 
@@ -259,7 +246,7 @@ main {
   width: 100%;
   text-align: center;
   color: #eece1a;
-  opacity: 1;
+  opacity: 0;
   transition: 0.3s; }
 
 .textWithBlurredBg:hover :not(img) {
