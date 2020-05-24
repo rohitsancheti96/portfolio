@@ -155,6 +155,19 @@ main {
   main#home h1 {
     margin-top: 20vh; }
 
+#about {
+  background: #444;
+  opacity: 0.9;
+  margin-top: 60px; }
+
+#work {
+  background: #444;
+  opacity: 0.9; }
+
+#contact {
+  background: #444;
+  opacity: 0.9; }
+
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -207,7 +220,7 @@ main {
     width: 100%;
     border: 3px #fff solid; }
     .projects img:hover {
-      opacity: 0.2;
+      opacity: 0;
       border-color: #eece1a;
       transition: all 1s ease-out; }
 
